@@ -10,7 +10,6 @@ set :branch, "main"
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/home/ivan/#{fetch :application}"
-set :passenger_server_name, 'blog.ivancetus.com'
 set :passenger_port, 8016
 
 # Default value for :format is :airbrussh.
